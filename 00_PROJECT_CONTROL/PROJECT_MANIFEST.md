@@ -1,19 +1,15 @@
-# Project Manifest
+# MIRATH_AL_DAM — Project Manifest
 
-- Title: **ميراث الدم**
-- Working title: **MIRATH AL DAM**
-- Primary language: Egyptian Arabic
-- Format and episode count: confirm against approved series outline
-- Current phase: repository foundation / pre-production
+## بنية المشروع
+- `01_BIBLES`: جميع الـ Bibles والمرجع السردي الرسمي.
+- `02_CHARACTER_DESIGN`: تصميم الشخصيات ومراجع الوجوه والملابس.
+- `03_LOCATION_DESIGN`: تصميم مواقع التصوير الثابتة.
+- `04_PROPS_DESIGN`: تصميم الإكسسوارات وتتبع حالتها.
+- `05_APPROVED_REFERENCES`: نسخ مرجعية معتمدة فقط، جاهزة لإعادة الاستخدام.
+- `06_EPISODES`: ملفات كل حلقة بصورة مستقلة.
+- `07_SHARED_PRODUCTION_ASSETS`: إعدادات وأصول إنتاج مشتركة.
+- `08_DELIVERABLES`: النسخ النهائية المعدة للتسليم أو النشر.
+- `09_ARCHIVE`: النسخ القديمة والمرفوضة وسجلاتها؛ لا تحذفها بصمت.
 
-## Source of truth
-Resolve conflicts using the latest approved project decision, then master bible, locked script, approved scene package, approved references, and drafts. Never silently overwrite a conflict.
-
-## Stable IDs
-Characters `CHAR_###`; locations `LOC_###`; props `PROP_###`; episodes `EP##_...`; scenes `EP##_SC###`; shots `EP##_SC###_SH###`; assets `AST_[TYPE]_####`.
-
-## Status
-`DRAFT`, `IN_REVIEW`, `APPROVED`, `LOCKED`, `REJECTED`, `SUPERSEDED`.
-
-## Revision control
-Use versions such as `v0.1`, `v0.2`, `v1.0`. Locked documents require a logged revision explaining what changed, why, and who approved it.
+## القاعدة الأساسية
+ملفات الـ Bibles تصف قواعد العالم والشخصيات والإنتاج. أما ملفات الحلقة فتحتوي كل ما يحتاجه تنفيذ الحلقة ومشاهدها دون الرجوع إلى ملفات أخرى. مراجع الصور المعتمدة تحفظ مرة واحدة في `05_APPROVED_REFERENCES`، وتُنسخ أو تُربط منها مراجع التنفيذ داخل مجلد الحلقة بحسب الأداة المستخدمة.

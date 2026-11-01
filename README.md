@@ -1,15 +1,21 @@
-# MIRATH AL DAM — Production Repository
+# MIRATH AL-DAM — Master Project Folder
 
-Central production workspace for the Egyptian drama series **ميراث الدم**.
+المجلد الرئيسي لمشروع المسلسل. ابدأ من `00_PROJECT_CONTROL/PROJECT_MANIFEST.md`.
 
-## Production principles
-- Continuity first: approved character, location, costume, and prop references stay consistent.
-- Every scene package is self-contained; no undocumented assumptions from earlier scenes.
-- Approve designs and keyframes before video generation.
-- Track assets and decisions with stable IDs.
-- Keep secrets and large media out of Git.
+## المجلدات الرئيسية
+```text
+MIRATH_AL_DAM/
+├── 00_PROJECT_CONTROL/       # الإدارة، سجل الأصول، الاستمرارية والتسمية
+├── 01_BIBLES/                # جميع الـ Bibles الرسمية
+├── 02_CHARACTER_DESIGN/      # ملفات الشخصيات وصور الوجوه والملابس
+├── 03_LOCATION_DESIGN/       # المواقع والزوايا والإضاءة والديكور
+├── 04_PROPS_DESIGN/          # الإكسسوارات وحالاتها المتغيرة
+├── 05_APPROVED_REFERENCES/   # المراجع المعتمدة فقط
+├── 06_EPISODES/              # مجلد مستقل لكل حلقة
+├── 07_SHARED_PRODUCTION_ASSETS/ # أصوات وWorkflow وأصول مشتركة
+├── 08_DELIVERABLES/          # الحلقات النهائية ومواد التسويق
+└── 09_ARCHIVE/               # المرفوض والقديم والنسخ المستبدلة
+```
 
-## Workflow
-Script lock → scene breakdown → design → reference approval → storyboard/keyframes → video generation → voice/sound → edit → continuity/QC → delivery.
-
-See `00_PROJECT_CONTROL/PRODUCTION_WORKFLOW.md` to get started.
+## قاعدة ذهبية
+**DRAFT → REVIEW → APPROVED → PRODUCTION.** لا تحرّك أي صورة إلى مرحلة الإنتاج قبل اعتمادها. ولكل حلقة ملف تنفيذ مكتفٍ بذاته ولكل مشهد Scene Package مستقل.

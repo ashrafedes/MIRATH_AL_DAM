@@ -1,7 +1,8 @@
 # Continuity Log
 
-Record approved decisions and issues here; newest entries first.
+| Date | Asset / Scene ID | Previous Version | New Version | Change | Approved By / Status |
+|---|---|---|---|---|---|
+| 2026-11-01 | CHAR_01_HUSSEIN | — | Concept Sheet v01 | First generated character-sheet collage; pending detailed face-angle verification | DRAFT |
+| 2026-11-01 | CHAR_02_LAYLA | — | Concept Sheet v01 | First generated character-sheet collage; pending detailed face-angle verification | DRAFT |
 
-| Date | Episode / Scene / Shot | Entity ID | Issue or decision | Resolution | Status | Reference |
-|---|---|---|---|---|---|---|
-| YYYY-MM-DD | EP##_SC###_SH### | CHAR_### / LOC_### / PROP_### | Describe issue | Approved resolution | OPEN / RESOLVED | Asset/document ID |
+أضف سطرًا لكل تعديل مؤثر. لا تغيّر ملامح شخصية أو تصميم موقع دون تسجيل القرار.

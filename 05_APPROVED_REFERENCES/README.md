@@ -1,3 +1,5 @@
-# Approved References
+# Approved References — LOCKED
 
-Organize approved assets under CHARACTERS, LOCATIONS, PROPS, and STYLE_AND_COLOR. Register each asset ID, version, media location, approval date, and related entity IDs. Do not use unapproved or superseded references for final generation.
+هذا المجلد يحتوي فقط على الصور التي تمت مراجعتها واعتمادها للاستخدام المتكرر. لا تضع فيه الصور التجريبية أو الـ Moodboards.
+
+كل ملف معتمد يجب أن يحمل ID وVersion وAPPROVED في اسمه. عند استبدال مرجع، انقل القديم إلى `09_ARCHIVE/SUPERSEDED_REFERENCES` وسجّل التغيير.

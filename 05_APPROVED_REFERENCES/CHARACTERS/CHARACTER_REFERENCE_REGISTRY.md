@@ -8,8 +8,8 @@
 
 | Character ID | Character | Canonical file | Status |
 |---|---|---|---|
-| CHAR_001 | حسين الشناوي — Hussein Al-Shenawy | [Character sheet](../../02_CHARACTER_DESIGN/CHAR_01_HUSSEIN_CONCEPT_SHEET_v01_DRAFT.png) | APPROVED BY OWNER — filename retains historical DRAFT label |
-| CHAR_002 | ليلى الشناوي — Layla Al-Shenawy | [Character sheet](../../02_CHARACTER_DESIGN/CHAR_02_LAYLA_CONCEPT_SHEET_v01_DRAFT.png) | APPROVED BY OWNER — filename retains historical DRAFT label |
+| CHAR_001 | حسين الشناوي — Hussein Al-Shenawy | [Character sheet](../../02_CHARACTER_DESIGN/CHAR_01_HUSSEIN/00_CONCEPT_DRAFTS/CHAR_01_HUSSEIN_CONCEPT_SHEET_v01_DRAFT.png) | APPROVED BY OWNER — filename retains historical DRAFT label |
+| CHAR_002 | ليلى الشناوي — Layla Al-Shenawy | [Character sheet](../../02_CHARACTER_DESIGN/CHAR_02_LAYLA/00_CONCEPT_DRAFTS/CHAR_02_LAYLA_CONCEPT_SHEET_v01_DRAFT.png) | APPROVED BY OWNER — filename retains historical DRAFT label |
 
 ## Approval and naming note
 The project owner explicitly approved both uploaded character sheets. Their operational status is APPROVED despite the DRAFT text in each filename. Original filenames are retained to preserve existing links.
